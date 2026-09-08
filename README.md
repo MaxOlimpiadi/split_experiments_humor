@@ -25,7 +25,7 @@ The project automates data splitting across multiple training set sizes and rand
 ```
 
 
-## ⚙️ Configuration
+## Configuration
 
 Global parameters are defined at the top of `main.py`:
 
