@@ -1,4 +1,4 @@
-# Humor Detection Benchmark & Experiments 🎭🤖
+# Humor Detection Benchmark & Experiments
 
 This repository contains a complete experimental pipeline for text classification (humor detection), comparing traditional machine learning methods (SVM with TF-IDF and sentence embeddings) against fine-tuning modern transformer-based language models (BERT).
 
