@@ -20,7 +20,8 @@ The project automates data splitting across multiple training set sizes and rand
 │   └── predictions.csv           # Model predictions on the test set
 ├── experiments_log.csv           # Consolidated log of all experiments and metrics
 ├── best_model.pth                # Best transformer model checkpoint
-└── main.py                       # Main experiment script
+├── main.py                       # Main experiment script
+└── requirements.txt              # Important dependencies you may need to run the code 
 ```
 
 
