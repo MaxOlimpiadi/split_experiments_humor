@@ -35,3 +35,6 @@ Global parameters are defined at the top of `main.py`:
 * **SVM Hyperparameters:** RBF kernel, `C = 1.0`, `gamma = 'scale'`.
 * **Experiment Grid (`TRAIN_SPLIT_SIZES`):** Training subset sizes ranging from 25 to 1100 samples.
 * **Random Seeds (`RANDOM_SEEDS`):** `(7, 10, 35)` for robust evaluation and variance reduction.
+* **Execution Flags:**
+  * `CREATE_SPLITS = True` — automatically generates stratified Train/Val/Test splits and training slices. Set to `False` to load existing splits directly from files.
+  * `DELETE_OLD_REPORT = True` — clears the previous `experiments_log.csv` log before starting a new run.
