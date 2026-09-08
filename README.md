@@ -8,7 +8,7 @@ The project automates data splitting across multiple training set sizes and rand
 
 ```text
 ├── datasets/
-│   └── colbert_dataset.csv       # Source dataset (text + humor label)
+│   └── colbert_dataset.csv       # Source dataset (you will need to uploade one)
 ├── split/                        # Generated data splits
 │   ├── val.csv
 │   ├── test.csv
@@ -19,5 +19,5 @@ The project automates data splitting across multiple training set sizes and rand
 ├── test/
 │   └── predictions.csv           # Model predictions on the test set
 ├── experiments_log.csv           # Consolidated log of all experiments and metrics
-├── best_model.pth                # Best model checkpoint
+├── best_model.pth                # Best transformer model checkpoint
 └── main.py                       # Main experiment script
