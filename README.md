@@ -28,8 +28,9 @@ The project automates data splitting across multiple training set sizes and rand
 
 Global parameters are defined at the top of `main.py`:
 
-* **Models:** `bert-base-uncased`, `sentence-transformers/all-MiniLM-L6-v2`.
-* **BERT Hyperparameters:** `BATCH_SIZE = 16`, `EPOCHS = 10`, `LEARNING_RATE = 5e-5`, `MAX_LENGTH = 512`.
+* **Transformer Model:** `bert-base-uncased`,
+* **Embedding model for SVM** `sentence-transformers/all-MiniLM-L6-v2`.
+* **Transformer model Hyperparameters:** `BATCH_SIZE = 16`, `EPOCHS = 10`, `LEARNING_RATE = 5e-5`, `MAX_LENGTH = 512`.
 * **SVM Hyperparameters:** RBF kernel, `C = 1.0`, `gamma = 'scale'`.
 * **Experiment Grid (`TRAIN_SPLIT_SIZES`):** Training subset sizes ranging from 25 to 1100 samples.
 * **Random Seeds (`RANDOM_SEEDS`):** `(7, 10, 35)` for robust evaluation and variance reduction.
