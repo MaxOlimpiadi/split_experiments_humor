@@ -4,7 +4,7 @@ This repository contains a complete experimental pipeline for text classificatio
 
 The project automates data splitting across multiple training set sizes and random seeds, runs systematic evaluations, logs all metrics, and generates learning curves showing how performance scales with data size.
 
-# Humor Project structure
+# Project structure
 
 ```text
 ├── datasets/
