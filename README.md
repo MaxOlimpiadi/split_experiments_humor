@@ -6,6 +6,7 @@ The project automates data splitting across multiple training set sizes and rand
 
 # Humor Project structure
 
+```text
 ├── datasets/
 │   └── colbert_dataset.csv       # Source dataset (text + humor label)
 ├── split/                        # Generated data splits
